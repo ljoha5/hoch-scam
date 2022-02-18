@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');
+#clock{
+	font-family: 'Rowdies', cursive;
+}
+.pizdec{
+	min-width: 400px;
+	min-height: 400px;
+	position: absolute;
+	left: 10px;
+	bottom: 23%;
+}
+h1{
+	z-index: 1000000;
+	text-align: center;
+	font-family: 'Syne Tactile', cursive;
+	font-size: 4em;
+	animation: scam 0.8s infinite;
+}
+@keyframes scam{
+	0%{
+        background-color: black;
+    }
+    50%{
+        background-color: red;
+    }
+    100%{
+        background-color: black;
+    }
+}
+
+body{
+	text-align: center;
+	background-color: blue;
+	animation: back 0.7s infinite;
+	transition: 0.3s;
+}
+@keyframes back{
+	0%{
+        background-color: red;
+    }
+    25%{
+        background-color: yellow;
+    }
+    50%{
+        background-color: green;
+    }
+    75%{
+        background-color: blue;
+    }
+    100%{
+        background-color: red;
+    }
+}
+.amogus{
+	z-index: 100;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	min-width: 98%;
+	min-height: 500px;
+}
+.gachi{
+	min-width: 500px;
+	min-height: 500px;
+	position: absolute;
+	right: 10%;
+	bottom: 30%;
+}
+.scam{
+	min-width: 400px;
+	min-height: 400px;
+	position: absolute;
+	left: 10px;
+	top: 10%;
+}
+.dance{
+	z-index: -10;
+	min-width: 600px;
+	min-height: 600px;
+	position: absolute;
+	right: 10px;
+	top: 13%;
+}
+.chok{
+	z-index: -10;
+	min-width: 400px;
+	min-height: 400px;
+	position: absolute;
+	right: 40%;
+	top: 30%;
+}
